@@ -1,0 +1,296 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: aqua;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  scroll-behavior: smooth;
+}
+
+/* ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 1rem;
+} */
+
+a {
+  text-decoration: none;
+}
+.contato a {
+  font-size: 15px;
+}
+.logo img {
+  height: 60px;
+  width: 100px;
+}
+.logo {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  align-content: center;
+}
+.logo h1 {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  padding-top: 10px;
+}
+.navigationbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  width: 100%;
+  background-color: #002e5d;
+  text-decoration: white;
+  height: 80px;
+}
+.econtato a {
+  padding: 10px;
+  border-radius: 10px;
+}
+.econtato a:hover {
+  background-color: #0d55a4;
+}
+.links a:hover {
+  color: #d6d700;
+}
+.links {
+  display: flex;
+  max-width: 300px;
+  width: 30%;
+  justify-content: space-between;
+}
+.navigationbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Atkinson Hyperlegible Next", serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.contato img {
+  height: 1.25rem;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.carousel-inner {
+  height: 400px;
+  border: 0.125rem solid black;
+}
+.carousel-item img {
+  object-fit: contain !important;
+  height: 100% !important;
+}
+.geralobjetivo {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px 0; */
+  background-color: #0d55a4;
+  color: white;
+  height: 725px;
+}
+
+.objetivo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.objetivoimg img {
+  width: 50%;
+}
+.objetivoimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.review {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #0d55a4;
+  color: white;
+  padding-left: 140px;
+}
+.reviewsgeral {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d55a4;
+  color: white;
+}
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 1.25rem;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 120px;
+  height: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.meio {
+  text-align: center;
+}
+.titulo {
+  padding-top: 15px;
+  font-size: 22px !important;
+}
+.subtitulo {
+  background-color: #f5f9ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.footer img {
+  height: 60px;
+  width: 100px;
+}
+
+/* .endereco {
+  text-align: center;
+} */
+
+.zap {
+  text-decoration: none;
+  color: black;
+  background: #25d366;
+  border-radius: 30px;
+  border: 1px solid #089949;
+  width: 140px;
+  padding-left: 12px;
+}
+
+.zap:hover {
+  background-color: #076938;
+}
+
+.direito a i {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.direito {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.geralobjetivo h1 {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-size: 55px;
+}
+
+.geralobjetivo p {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-size: 24px;
+}
+
+.review h1 {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-size: 48px;
+}
+.reviewsgeral p {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-size: 18px;
+}
+.footer p {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-size: 16px;
+}
+.carousel-item {
+  float: none !important;
+  height: 100%;
+}
+.carousel-item img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: fill !important;
+}
+
+.names {
+  font-size: 24px !important;
+}
+
+.linha {
+  background-color: #808080;
+  width: 100%;
+  height: 3px;
+}
+
+.creditos {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: #f5f9ff;
+}
